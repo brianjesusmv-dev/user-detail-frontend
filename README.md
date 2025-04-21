@@ -7,7 +7,7 @@ Este proyecto es el frontend de una aplicación de evaluación técnica. Permite
 - React
 - Vite
 - React Router
-- CSS Modules / Tailwind (si aplica)
+- CSS Modules
 - Axios / Fetch API
 
 ## 🚀 Instalación y ejecución
