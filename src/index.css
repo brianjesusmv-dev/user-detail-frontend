@@ -1,0 +1,181 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 13px; 
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  white-space: nowrap; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #333;
+}
+
+th {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #222;
+  background-color: #F7F7F7; 
+}
+
+th:hover {
+  background-color: #eaeaea; 
+}
+
+tr {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+td {
+  background-color: #fafafa; 
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+  background-color: #ffffff;
+}
+
+th, td {
+  border-right: 1px solid #ddd;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+th, td {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 200px; 
+}
+
+tr:hover td {
+  background-color: #f1f1f1;
+}
+
+th, td {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+tr:hover td, th:hover {
+  color: #222; 
+}
+
+tr:nth-child(odd) td {
+  background-color: #ffffff;
+}
+tr:nth-child(even) td {
+  background-color: #f7f7f7; 
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus-within {
+  border-color: #888;
+}
+
+.search-icon {
+  color: #777;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 14px;
+  color: #333;
+}
